@@ -19,6 +19,7 @@ public class Main {
 	
 		
 		String input;
+		boolean a = false;
 		do
 		{
 			clrscr();
@@ -64,9 +65,7 @@ public class Main {
 				}
 			}
 			scan.nextLine();
-		}while(input.equalsIgnoreCase("Exit"));
-		
-		
+		}while(!a);
 	}
 
 	public static void main(String[] args) {
